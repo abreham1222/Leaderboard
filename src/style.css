@@ -9,6 +9,7 @@
 .refresh {
   margin-top: 25px;
   margin-left: 15px;
+  border: 2px solid;
 }
 
 .add-scores {
@@ -25,13 +26,20 @@
 .show {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   list-style: none;
 }
 
-li {
+li:nth-child(odd) {
+  width: 30%;
+  border: 0.2px solid;
+  background-color: rgb(226, 226, 226);
   display: flex;
-  justify-content: baseline;
+}
+
+li:nth-child(even) {
+  width: 30%;
+  border: 0.2px solid;
+  display: flex;
 }
 
 .inline {

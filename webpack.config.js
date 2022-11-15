@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: {
     main: path.resolve(__dirname, './src/index.js')
   },
@@ -17,7 +18,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Leaderboard'
+      title: 'Leaderboard',
+      template: './src/index.html',
+      hash: true,
     })
   ],
   module: {
@@ -26,8 +29,6 @@ module.exports = {
         test: /\.html$/i,
         loader: "html-loader",
       },
-    ],
-     rules: [
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],

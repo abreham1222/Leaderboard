@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
-  <body>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+<script defer src="runtime.bundle.js?3cb0a0f45d7ed9fa01bd"></script><script defer src="main.bundle.js?3cb0a0f45d7ed9fa01bd"></script></head>
+<body>
+  <h1>LeaderBoard</h1>
+  
+  <div class="display-scores">
+    <h2>Recent Scores</h2>
+    <label for="button"><button class="refresh">refresh</button></label>
+  </div>
+  <ul class="show"></ul>
+  <div class="add-scores">
+    <h2>add your scores</h2>
+    <label for="input"><input type="text" class="name" required placeholder="your name"></label>
+    <label for="input"><input type="number" class="score-input" required placeholder="your score"></label>
+    <label for="button"><button class="add-btn" type="submit">submit</button></label>
+  </div>
+</body>
 </html>
