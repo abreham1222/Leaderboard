@@ -15,18 +15,19 @@
 .add-scores {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
+  position:fixed;
+  left: 35rem;
+  top: 80px;
 }
 
 .add-btn {
-  margin-left: 120px;
+  margin-left: 90px;
 }
 
 .show {
   display: flex;
   flex-direction: column;
-  list-style: none;
 }
 
 li:nth-child(odd) {
