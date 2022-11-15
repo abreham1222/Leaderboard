@@ -19,5 +19,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Leaderboard'
     })
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+    ],
+     rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 }
