@@ -20,7 +20,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Leaderboard',
       template: './src/index.html',
-      hash: true,
     }),
   ],
   module: {
