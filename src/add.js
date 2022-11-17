@@ -15,3 +15,9 @@ const display = () => {
     });
   });
 };
+
+const add = (data) => {
+  gameAPI.send(data.user, data.score);
+};
+
+export { add, display };
