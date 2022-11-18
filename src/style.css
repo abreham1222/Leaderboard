@@ -62,7 +62,6 @@ h2 {
 .show {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   list-style: none;
 }
 
