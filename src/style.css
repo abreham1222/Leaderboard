@@ -28,3 +28,40 @@ h2 {
   margin-left: 10px;
   color: #666;
 }
+
+.ref {
+  display: flex;
+}
+
+.refresh {
+  margin-top: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  margin-left: 30px;
+  padding: 7px;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 8px;
+  color: #666;
+  background: #fff;
+}
+
+.refresh:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+.ul {
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid #666;
+  width: 100%;
+  display: flex;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  list-style: none;
+}
