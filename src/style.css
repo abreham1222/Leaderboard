@@ -10,3 +10,21 @@ h1 {
   margin-bottom: 50px;
   color: #666;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.display-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 27px;
+  margin-left: 10px;
+  color: #666;
+}
