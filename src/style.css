@@ -65,3 +65,48 @@ h2 {
   justify-content: baseline;
   list-style: none;
 }
+
+.show li {
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 40%;
+  margin-left: 10%;
+}
+
+input {
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.add-btn {
+  margin-left: 140px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 8px;
+  color: #666;
+  background: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.add-btn:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+.inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
